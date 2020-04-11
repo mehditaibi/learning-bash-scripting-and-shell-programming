@@ -14,3 +14,8 @@ SERVER_NAME=$(hostname) # To assign a command to a variable
 echo "You are running this script on ${SERVER_NAME}."
 
 # Variable cannot start with numbers or contain special characters 
+
+# LOCAL Variables 
+# Only within a function and can only be accessed by that function 
+
+local LOCAL_VAR = 1
